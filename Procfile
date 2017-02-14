@@ -1,1 +1,2 @@
-web: python main.py
+set FLASK_APP=main.py
+web: flask run
