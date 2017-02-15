@@ -14,4 +14,5 @@ def cv():
 # -> Running on http://localhost:5000/
 
 if __name__ == "__main__":
-    app.run()
+    from os import environ
+    app.run(debug=False, port=environ.get("PORT", 5000))
