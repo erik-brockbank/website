@@ -6,6 +6,10 @@ html{
 
 a{
 	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: gray;
 }
 
 .top-header{
@@ -13,9 +17,13 @@ a{
 }
 
 #name-head{
-	font-size: 36px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-size: 48px;
 }
 
 #nav-head{
+	margin-top: 0px;
+	margin-bottom: 20px;
 	font-size: 24px;
 }
