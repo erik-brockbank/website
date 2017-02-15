@@ -6,9 +6,23 @@ app = Flask(__name__, static_url_path='/static')
 def index():
     return render_template("index.html")
 
+
+@app.route("/about")
+def about():
+    return "About page"
+
+
 @app.route("/cv")
 def cv():
     return "CV page"
+
+
+@app.route("/contact")
+def contact():
+    return "Contact page"
+
+
+
 
 #TO RUN THIS
 # python main.py

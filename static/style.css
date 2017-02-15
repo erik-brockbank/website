@@ -1,7 +1,19 @@
 html{
     font-family: sans-serif;
 }
+
+a{
+	text-decoration: none;
+}
+
 .top-header{
-    font-size: 24px;
     text-align: center;
+}
+
+#name-head{
+	font-size: 36px;
+}
+
+#nav-head{
+	font-size: 24px;
 }
