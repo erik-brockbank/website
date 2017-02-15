@@ -7,10 +7,24 @@
     	<a href="/">Erik Brockbank</a>
     </h1>
     <h2 id="nav-head">
+    {% if page=="about" %}
+    	<a href="/about"><u>about</u></a>
+    {% else %}
     	<a href="/about">about</a>
+    {% endif %}
     	<span> | </span>
+   	{% if page=="cv" %}
+    	<a href="/cv"><u>cv</u></a>
+    {% else %}
     	<a href="/cv">cv</a>
+    {% endif %}
     	<span> | </span>
+    {% if page=="contact" %}
+    	<a href="/contact"><u>contact</u></a>
+    {% else %}
     	<a href="/contact">contact</a>
+    {% endif %}
     </h2>
 </header>
+<div class="content-bucket"></div>
+<footer class="footer"></footer>

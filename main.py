@@ -4,22 +4,22 @@ app = Flask(__name__, static_url_path='/static')
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    return render_template("index.html", page="home")
 
 
 @app.route("/about")
 def about():
-    return "About page"
+    return render_template("index.html", page="about")
 
 
 @app.route("/cv")
 def cv():
-    return "CV page"
+    return render_template("index.html", page="cv")
 
 
 @app.route("/contact")
 def contact():
-    return "Contact page"
+    return render_template("index.html", page="contact")
 
 
 
