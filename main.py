@@ -9,17 +9,18 @@ def index():
 
 @app.route("/about")
 def about():
-    return render_template("index.html", page="about")
+    return render_template("about.html", page="about")
 
 
 @app.route("/cv")
 def cv():
-    return render_template("index.html", page="cv")
+    return render_template("cv.html", page="cv")
 
 
 @app.route("/contact")
 def contact():
-    return render_template("index.html", page="contact")
+    return render_template("contact.html", page="contact")
+
 
 
 
