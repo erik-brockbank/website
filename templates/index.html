@@ -26,7 +26,15 @@
     {% endif %}
     </h2>
 </header>
-<div class="content-bucket">
-	{% block content %}{% endblock %}
-</div>
-<footer class="footer"></footer>
+	<div class="content-bucket">
+		{% block content %}
+		<div class="index-bucket">
+			<p>Hello World!</p>
+			<p>There's gonna be some really cool stuff here soon. Hopefully.</p>
+		</div>
+		{% endblock %}
+	</div>
+<footer class="footer">
+	<p><i>This website is a work in progress! Check back for updated content on the home page.</i></p>
+	<p><i>Under the hood, it's running with a basic Flask web server and it's hosted on Heroku.</i></p>
+</footer>

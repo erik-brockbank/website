@@ -31,12 +31,44 @@ a:hover{
 .content-bucket{
 	text-align: center;
 	margin-top: 40px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
-.contact-bucket{
-
+.index-bucket{
+	font-size: 18px;
 }
+
+.about-img-bucket{
+	overflow: hidden;
+	margin: 10px;
+}
+
+#about-img-text{
+	text-align: center;
+	font-size: 14px;
+}
+
+.about-text-bucket{
+	font-size: 18px;
+	text-align: left;
+	margin: 10px;
+}
+
+.cv-bucket{
+	font-size: 18px;
+}
+
 .contact-field{
 	font-size: 18px;
-
 }
+
+.footer{
+	text-align: center;
+	font-size: 12px;
+	margin-top: 100px;
+}
+
