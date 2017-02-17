@@ -13,6 +13,7 @@ a:hover{
 	color: gray;
 }
 
+
 .top-header{
     text-align: center;
     letter-spacing: 0.2em;
@@ -67,11 +68,16 @@ a:hover{
 
 .contact-field{
 	font-size: 18px;
+	margin: 10px;
 }
 
 .footer{
 	text-align: center;
 	font-size: 12px;
-	margin-top: 100px;
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: 1rem;
 }
 
