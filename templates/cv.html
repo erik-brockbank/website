@@ -1,6 +1,8 @@
 {% extends "index.html" %}
 {% block content %}
 <div class="cv-bucket">
-    <embed id="cv-embed" src="/static/img/brockbank_resume_2019.pdf" type="application/pdf">
+    <object id="cv-embed" data="/static/img/brockbank_resume_2019.pdf" type="application/pdf">
+        <p> Rats! Try clicking <a href="/static/img/brockbank_resume_2019.pdf">here</a></p>
+    </object>
 </div>
 {% endblock %}
