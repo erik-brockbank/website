@@ -2,20 +2,14 @@
 <head>
 	<title>erikb</title>
     <link rel="stylesheet" type="text/css" href="/static/style.css">
-    <link rel="icon" type="image/png" href="/static/img/tree2.png">
+    <link rel="icon" type="image/png" href="/static/img/favicon_tree.png">
 </head>
 <header class="top-header">
     <h1 id="name-head">
     	<a href="/">Erik Brockbank</a>
     </h1>
     <h2 id="nav-head">
-    {% if page=="about" %}
-    	<a href="/about"><u>about</u></a>
-    {% else %}
-    	<a href="/about">about</a>
-    {% endif %}
-    	<span> | </span>
-   	{% if page=="cv" %}
+    {% if page=="cv" %}
     	<a href="/cv"><u>cv</u></a>
     {% else %}
     	<a href="/cv">cv</a>
@@ -30,9 +24,19 @@
 </header>
 	<div class="container" id="content-bucket">
 		{% block content %}
-		<div class="index-bucket">
-			<p>Hello, World!</p>
-		</div>
+                <div class="about-bucket">
+                        <div class="about-img-bucket">
+                                <div class="about-img-container">
+                                        <img src="/static/img/about_photo.jpg" id="about-img" alt="photo">
+                                </div>
+                        </div>
+                        <div class="about-text-bucket">
+                                <p>Hi there! I'm currently a PhD student in the <a href="http://www.evullab.org/">Computational Cognition Lab</a> at UC San Diego.</p>
+                                <p>Prior to that I was an SRE/Capacity Engineer at Dropbox.</p>
+                                <p>I studied Symbolic Systems at Stanford (BS '13, MS '14); Symbolic Systems is *not* a book by Dan Brown, though all my aunts and uncles think it is.</p>
+                                <p>Outside of work, I like to read and be outdoors hiking, backpacking, or skiing.</p>
+                        </div>
+                </div>
 		{% endblock %}
 	</div>
 <footer class="footer">
