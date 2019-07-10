@@ -1,21 +1,16 @@
 import os
 from flask import Flask, render_template
+
+
 app = Flask(__name__, static_url_path='/static')
 
 @app.route("/")
 def index():
     return render_template("index.html", page="home")
 
-
-@app.route("/about")
-def about():
-    return render_template("about.html", page="about")
-
-
 @app.route("/cv")
 def cv():
     return render_template("cv.html", page="cv")
-
 
 @app.route("/contact")
 def contact():
@@ -27,7 +22,7 @@ def contact():
 
 #TO RUN THIS
 # python main.py
-# -> Running on http://localhost:5000/
+# -> Running on http://localhost:33507/
 
 if __name__ == "__main__":
     from os import environ
