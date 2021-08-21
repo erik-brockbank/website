@@ -29,4 +29,5 @@ def contact():
 if __name__ == "__main__":
     from os import environ
     port = int(os.environ.get("PORT", 33507))
-    app.run(debug=False, host="127.0.0.1", port=port)
+    # app.run(debug=False, host="0.0.0.0", port=port)
+    app.run()
