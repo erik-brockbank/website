@@ -27,7 +27,6 @@ def contact():
 # -> Running on http://localhost:33507/
 
 if __name__ == "__main__":
-    # from os import environ
-    # port = int(os.environ.get("PORT", 33507))
-    # app.run(debug=False, host="0.0.0.0", port=port)
-    app.run()
+    from os import environ
+    port = int(environ.get("PORT", 33507))
+    app.run(debug=False, host="0.0.0.0", port=port)
