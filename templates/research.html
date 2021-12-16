@@ -2,24 +2,85 @@
 {% block content %}
 <div class="research-bucket">
     <div id="research-header">
+      <h1 class="topic-header">Overview</h1>
+      <p>
+        Broadly, I'm interested in a diverse set of questions about how children and adults learn and
+        reason about the world around them. My work uses behavioral experiments and computational modeling
+        techniques from machine learning and artificial intelligence to explore these questions.
+      </p>
+      <p>
+        My doctoral research is focused on how people come to understand rich patterns in other
+        people's behavior and develop abstractions that generalize to new settings.
+      </p>
         <p>
-          Broadly, I'm interested in a diverse set of questions about how children and adults learn and
-          reason about the world around them. My work uses behavioral experiments and computational modeling
-          techniques from machine learning and artificial intelligence to explore these questions.
+          Below is an overview of my work organized loosely by topic,
+          with links to papers, talks, and other fun stuff.
+        </p>
+    </div>
+
+    <!-- TODO make paper citations links to pdf on another page, talk citations links to vids -->
+
+    <div class="topic-bucket">
+      <h2 class="topic-header">Numerical Reasoning</h2>
+      <!-- JEP paper, cognition paper, cogsci 2019 paper, spp 2019 poster(?) -->
+      <div class="topic-overview">
+        <p>
+          Adults have an amazing ability to reason about abstract number in all kinds of ways.
+          But this doesn't come for free; kids struggle to learn basic concepts of number long after
+          they've learned how to count.
+          <em>What's the basis for adult number reasoning and how do kids learn it?</em>
         </p>
         <p>
-          My doctoral research is focused on how people come to understand rich patterns in other
-          people's behavior and develop abstractions that generalize to new settings.
+          In my work, I've used computational modeling techniques to try and formalize,
+          a) the strategies children use when reasoning about number and, b) the process by which
+          adults estimate number in the world around them.
         </p>
-        <!--
-          <p>
-            Below is an overview of my work organized loosely by topic,
-            with links to papers, talks, and other fun stuff.
-          </p>
-        -->
-        <p>
-          Stay tuned for updated links to papers and talks below!
-        </p>
+      </div>
+      <div class="topic-content">
+        <h3>Papers</h3>
+        <div class="paper-links">
+          <img src="/static/img/paper_img_counting.png" class="paper-img" alt="photo">
+          <span class="paper-cite">
+            <a href="/static/docs/cognition - counting and ontogenetic origins.pdf">
+              Schneider, R., <b>Brockbank, E. </b>, Feiman, R., & Barner, D. (2021).
+              Counting and the ontogenetic origins of exact equality. <em>Cognition</em>.
+            </a>
+          </span>
+        </div>
+        <h3>Talks and Posters</h3>
+        <div class="paper-links">
+          <img src="/static/img/poster_img_number.png" class="paper-img" alt="photo">
+          <span class="paper-cite">
+            <a href="/static/docs/spp_19_FINAL_resize.pdf">
+              <b>Brockbank, E.</b>, & Vul, E. (2019). Mapping visual features onto numbers.
+              Poster presented at the 45th Annual Conference of the Society for Philosophy and Psychology &
+              the 41st Annual Conference of the Cognitive Science Society.
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic-bucket">
+      <h2 class="topic-header">Explanation</h2>
+      <!-- go fish paper, rmts paper, go fish cogsci paper, SPP 2021 talk, cogsci 2020 talk-->
+    </div>
+
+    <div class="topic-bucket">
+      <h2 class="topic-header">Sequential Reasoning (thesis work)</h2>
+      <!--
+        games paper, cogsci 2020, cogsci 2021, rps on psyarxiv?
+        talks: SMP 2020, cogsci 2020, psychonomics 2020, cogsci 2021, psychonomics 2021
+        eventually: dyad lambda
+      -->
+    </div>
+
+    <div class="topic-bucket">
+      <h2 class="topic-header">Miscellaneous</h2>
+      <!--
+        TiCS paper, cogsci paper, book chapter
+        Eventually: trust agents, psilocybin
+      -->
     </div>
 </div>
 {% endblock %}

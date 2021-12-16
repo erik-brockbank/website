@@ -57,7 +57,12 @@ p{
 
 .contact-field{
 	font-size: 18px;
-	margin: 1em;
+	display: inline-flex;
+}
+
+.contact-img{
+	height: 25px;
+	padding-right: 10px;
 }
 
 .cv-bucket{
@@ -72,4 +77,25 @@ p{
 
 .research-bucket{
 	text-align: left;
+}
+
+.topic-overview{
+	font-size: 14px;
+}
+.topic-content{
+	margin-left: 25px;
+}
+
+.paper-links{
+	font-size: 14px;
+	display: inline-flex;
+}
+
+.paper-img{
+	height: 100px;
+	margin-right: 20px;
+}
+
+.paper-cite{
+	padding-top: 20px;
 }
