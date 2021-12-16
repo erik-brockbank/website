@@ -89,13 +89,10 @@ p{
 .paper-links{
 	font-size: 14px;
 	display: inline-flex;
+	padding: 10px;
 }
 
 .paper-img{
-	height: 100px;
+	height: 50px;
 	margin-right: 20px;
-}
-
-.paper-cite{
-	padding-top: 20px;
 }
