@@ -10,6 +10,14 @@ app = Flask(__name__, static_url_path='/static')
 def index():
     return render_template("index.html", page="home")
 
+@app.route("/research")
+def research():
+    return render_template("research.html", page="research")
+
+@app.route("/nudes")
+def nudes():
+    return render_template("contact.html", page="contact")
+
 @app.route("/cv")
 def cv():
     return render_template("cv.html", page="cv")

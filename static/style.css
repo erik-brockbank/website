@@ -49,9 +49,13 @@ p{
 	font-size: 14px;
 }
 
+#about-img{
+	width: 600px;
+}
+
 .about-text-bucket{
 	font-size: 18px;
-	text-align: left;
+	text-align: center;
 	margin: 1em;
 }
 
@@ -61,24 +65,15 @@ p{
 }
 
 .cv-bucket{
-        height: 800px;
-        margin: 2em;
+	height: 800px;
+	margin: 2em;
 }
 
 #cv-embed{
-        width: 100%;
-        height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
-.footer{
-	text-align: center;
-	font-size: 12px;
-	display: flex;
-	flex-direction: column;
-	margin-top: 8em;
-	margin-bottom: 2em;
+.research-bucket{
+	text-align: left;
 }
-.footer-item{
-	margin: 0.25em;
-}
-
