@@ -15,9 +15,12 @@
     	<a href="/research">research</a>
     {% endif %}
         <span> | </span>
-
-    <!-- TODO add "teaching" tab -->
-
+    {% if page=="teaching" %}
+    	<a href="/teaching"><u>teaching</u></a>
+    {% else %}
+    	<a href="/teaching">teaching</a>
+    {% endif %}
+        <span> | </span>
     <!--
     	<a href="/contact">nudes</a>
     	<span> | </span>

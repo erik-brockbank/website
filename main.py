@@ -14,9 +14,13 @@ def index():
 def research():
     return render_template("research.html", page="research")
 
-@app.route("/nudes")
-def nudes():
-    return render_template("contact.html", page="contact")
+@app.route("/teaching")
+def teaching():
+    return render_template("teaching.html", page="teaching")
+
+# @app.route("/nudes")
+# def nudes():
+#     return render_template("contact.html", page="contact")
 
 @app.route("/cv")
 def cv():
