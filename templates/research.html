@@ -1,163 +1,33 @@
 {% extends "index.html" %}
 {% block content %}
+<!--
+  TODO
+  - Add dissertation and link to dissertation
+  - Re-order the below to reflect most relevant/recent work at top
+  - Add GCB + DSP
+-->
 <div class="research-bucket">
     <div id="research-header">
       <h1 class="topic-header">Overview</h1>
       <p>
         Broadly, I'm interested in a diverse set of questions about how children and adults learn and
-        reason about the world around them. My work uses behavioral experiments and computational modeling
-        techniques from machine learning and artificial intelligence to explore these questions.
+        reason about the world around them.
       </p>
       <p>
-        My doctoral research is focused on how people come to understand rich patterns in other
-        people's behavior and develop abstractions that generalize to new settings.
+        My work uses behavioral experiments and computational modeling techniques to explore these questions.
       </p>
-        <p>
-          <b><em>Below is a summary of my work organized by topic</em></b>, with links to papers, talks, and other fun stuff.
-        </p>
+      <p>
+        My <a href="/static/docs/papers/Dissertation-final.pdf"><u>doctoral research</u></a> was focused on how people come to understand rich patterns in other
+        people's behavior over many interactions.
+      </p>
+      <p>
+        <b><em>Below is a summary of my work organized by topic</em></b>, with links to papers, talks, and other fun stuff.
+      </p>
     </div>
 
     <!--
-      NUMBER
+      SOCIAL / RPS
     -->
-    <div class="topic-bucket">
-      <h1 class="topic-header">Numerical Reasoning</h1>
-      <div class="topic-overview">
-        <p>
-          Adults have an amazing ability to reason about abstract number in all kinds of ways.
-          But this doesn't come for free; kids struggle to learn basic concepts of number long after
-          they've learned how to count.
-        </p>
-        <p>
-          <em>What's the basis for adult number reasoning and how do kids learn it?</em>
-        </p>
-        <p>
-          Work I've done looking at numerical reasoning has used computational modeling techniques
-          to try and formalize, a) the strategies children use when reasoning about number and,
-          b) the process by which adults estimate number in the world around them.
-        </p>
-      </div>
-
-      <div class="topic-content">
-        <h2>Papers</h2>
-        <div class="paper-links">
-          <img src="/static/img/paper_img_drift.png" class="paper-img" alt="photo" style="width: 150px;">
-          <span class="paper-cite">
-            <b>Brockbank, E.</b>, Barner, D., & Vul, E. (2022).
-            <br>Ongoing dynamic calibration produces unstable number estimates.
-            <br><em>Journal of Experimental Psychology: General</em>.
-            <br>[<a href="/static/docs/papers/jep_g - drift.pdf"><u>Link to paper</u></a>]
-          </span>
-        </div>
-        <div class="paper-links">
-          <img src="/static/img/paper_img_counting.png" class="paper-img" alt="photo" style="width: 150px;">
-          <span class="paper-cite">
-            Schneider, R., <b>Brockbank, E.</b>, Feiman, R., & Barner, D. (2021).
-            <br>Counting and the ontogenetic origins of exact equality.
-            <br><em>Cognition</em>.
-            <br>[<a href="/static/docs/papers/cognition - counting and ontogenetic origins.pdf"><u>Link to paper</u></a>]
-          </span>
-        </div>
-        <div class="paper-links">
-          <img src="/static/img/paper_img_mapping.png" class="paper-img" alt="photo" style="width: 150px;">
-          <span class="paper-cite">
-            <b>Brockbank, E.</b>, & Vul, E. (2019).
-            <br>Mapping visual features onto numbers.
-            <br>In <em>Proceedings of the 41st Annual Conference of the Cognitive Science Society</em>.
-            <br>[<a href="/static/docs/papers/cogsci_19_estimation_FINAL.pdf"><u>Link to paper</u></a>]
-          </span>
-        </div>
-
-        <h2>Talks and Posters</h2>
-        <div class="paper-links">
-          <img src="/static/img/paper_img_mapping.png" class="paper-img" alt="photo" style="width: 150px;">
-          <span class="paper-cite">
-            <b>Brockbank, E.</b>, & Vul, E. (2019).
-            <br>Mapping visual features onto numbers.
-            <br>Poster presented at the 45th Annual Conference of the Society for Philosophy and Psychology
-            <br>& the 41st Annual Conference of the Cognitive Science Society.
-            <br>[<a href="/static/docs/posters/spp_19_FINAL_resize.pdf"><u>Link to poster</u></a>]
-          </span>
-        </div>
-      </div>
-    </div>
-
-    <!--
-      EXPLANATION
-    -->
-    <div class="topic-bucket">
-      <h1 class="topic-header">Explanation</h1>
-      <div class="topic-overview">
-        <p>
-          In many learning environments, the process of <b>explaining</b> new data can lead
-          adults and children to favor more abstract, generalizable solutions.
-          This has obvious educational import, but also raises interesting psychological questions.
-        </p>
-        <p>
-          <em>How does explanation lead to greater abstraction when learning?</em>
-        </p>
-        <p>
-          My work in this space has looked at the impact of explanation on <em>relational reasoning</em>
-          in kids, and tried to nail down whether explanation helps adults <em>generate</em> certain
-          hypotheses, or makes them <em>evaluate</em> existing hypotheses differently.
-        </p>
-      </div>
-
-      <div class="topic-content">
-        <h2>Papers</h2>
-        <div class="paper-links">
-          <img src="/static/img/paper_img_rmts.png" class="paper-img" alt="photo" style="width: 150px;">
-          <span class="paper-cite">
-            <b>Brockbank, E.</b>, Lombrozo, T., Gopnik, A., & Walker, C. M. (2022).
-            <br>Ask me why, don't tell me why: Asking children for explanations facilitates relational thinking.
-            <br><em>Developmental Science</em>.
-            <br>[<a href="/static/docs/papers/dev_sci-rmts.pdf"><u>Link to paper</u></a>]
-          </span>
-        </div>
-        <div class="paper-links">
-          <img src="/static/img/paper_img_go_fish.png" class="paper-img" alt="photo" style="width: 150px;">
-          <span class="paper-cite">
-            <b>Brockbank, E.</b>, & Walker, C. M. (2022).
-            <br>Explanation Impacts Hypothesis Generation, but not Evaluation, During Learning.
-            <br><em>Cognition</em>.
-            <br>[<a href="/static/docs/papers/cognition - explanation.pdf"><u>Link to paper</u></a>]
-          </span>
-        </div>
-        <div class="paper-links">
-          <img src="/static/img/paper_img_go_fish.png" class="paper-img" alt="photo" style="width: 150px;">
-          <span class="paper-cite">
-            <b>Brockbank, E.</b>, & Walker, C. M. (2020).
-            <br>Explanation Supports Hypothesis Generation in Learning.
-            <br>In <em>Proceedings of the 42nd Annual Conference of the Cognitive Science Society</em>.
-            <br>[<a href="/static/docs/papers/explanationsupports_final.pdf"><u>Link to paper</u></a>]
-          </span>
-        </div>
-
-        <h2>Talks and Posters</h2>
-        <div class="paper-links">
-          <img src="/static/img/paper_img_go_fish.png" class="paper-img" alt="photo" style="width: 150px;">
-          <span class="paper-cite">
-            <b>Brockbank, E.</b>, & Walker, C. M. (2021).
-            <br>Explanation impacts hypothesis generation, but not evaluation, during learning.
-            <br>Poster presented at the 47th Annual Conference of the Society for Philosophy and Psychology.
-            <br>[<a href="https://youtu.be/UyVWc3YL2Uw"><u>Link to presentation</u> (5 min.)</a>]
-          </span>
-        </div>
-        <div class="paper-links">
-          <img src="/static/img/paper_img_go_fish.png" class="paper-img" alt="photo" style="width: 150px;">
-          <span class="paper-cite">
-            <b>Brockbank, E.</b>, & Walker, C. M. (2020).
-            <br>Explanation Supports Hypothesis Generation in Learning.
-            <br>Talk at the 42nd Annual Conference of the Cognitive Science Society.
-            <br>[<a href="https://youtu.be/7No00WFiKyQ"><u>Link to presentation</u> (15 min.)</a>]
-          </span>
-        </div>
-      </div>
-    </div>
-
-      <!--
-        SEQUENCES / RPS
-      -->
     <div class="topic-bucket">
       <h1 class="topic-header">Social and Adaptive Reasoning</h1>
       <div class="topic-overview">
@@ -271,6 +141,145 @@
     </div>
 
     <!--
+      EXPLANATION
+    -->
+    <div class="topic-bucket">
+      <h1 class="topic-header">Explanation</h1>
+      <div class="topic-overview">
+        <p>
+          In many learning environments, the process of <b>explaining</b> new data can lead
+          adults and children to favor more abstract, generalizable solutions.
+          This has obvious educational import, but also raises interesting psychological questions.
+        </p>
+        <p>
+          <em>How does explanation lead to greater abstraction when learning?</em>
+        </p>
+        <p>
+          My work in this space has looked at the impact of explanation on <em>relational reasoning</em>
+          in kids, and tried to nail down whether explanation helps adults <em>generate</em> certain
+          hypotheses, or makes them <em>evaluate</em> existing hypotheses differently.
+        </p>
+      </div>
+
+      <div class="topic-content">
+        <h2>Papers</h2>
+        <div class="paper-links">
+          <img src="/static/img/paper_img_rmts.png" class="paper-img" alt="photo" style="width: 150px;">
+          <span class="paper-cite">
+            <b>Brockbank, E.</b>, Lombrozo, T., Gopnik, A., & Walker, C. M. (2022).
+            <br>Ask me why, don't tell me why: Asking children for explanations facilitates relational thinking.
+            <br><em>Developmental Science</em>.
+            <br>[<a href="/static/docs/papers/dev_sci-rmts.pdf"><u>Link to paper</u></a>]
+          </span>
+        </div>
+        <div class="paper-links">
+          <img src="/static/img/paper_img_go_fish.png" class="paper-img" alt="photo" style="width: 150px;">
+          <span class="paper-cite">
+            <b>Brockbank, E.</b>, & Walker, C. M. (2022).
+            <br>Explanation Impacts Hypothesis Generation, but not Evaluation, During Learning.
+            <br><em>Cognition</em>.
+            <br>[<a href="/static/docs/papers/cognition - explanation.pdf"><u>Link to paper</u></a>]
+          </span>
+        </div>
+        <div class="paper-links">
+          <img src="/static/img/paper_img_go_fish.png" class="paper-img" alt="photo" style="width: 150px;">
+          <span class="paper-cite">
+            <b>Brockbank, E.</b>, & Walker, C. M. (2020).
+            <br>Explanation Supports Hypothesis Generation in Learning.
+            <br>In <em>Proceedings of the 42nd Annual Conference of the Cognitive Science Society</em>.
+            <br>[<a href="/static/docs/papers/explanationsupports_final.pdf"><u>Link to paper</u></a>]
+          </span>
+        </div>
+
+        <h2>Talks and Posters</h2>
+        <div class="paper-links">
+          <img src="/static/img/paper_img_go_fish.png" class="paper-img" alt="photo" style="width: 150px;">
+          <span class="paper-cite">
+            <b>Brockbank, E.</b>, & Walker, C. M. (2021).
+            <br>Explanation impacts hypothesis generation, but not evaluation, during learning.
+            <br>Poster presented at the 47th Annual Conference of the Society for Philosophy and Psychology.
+            <br>[<a href="https://youtu.be/UyVWc3YL2Uw"><u>Link to presentation</u> (5 min.)</a>]
+          </span>
+        </div>
+        <div class="paper-links">
+          <img src="/static/img/paper_img_go_fish.png" class="paper-img" alt="photo" style="width: 150px;">
+          <span class="paper-cite">
+            <b>Brockbank, E.</b>, & Walker, C. M. (2020).
+            <br>Explanation Supports Hypothesis Generation in Learning.
+            <br>Talk at the 42nd Annual Conference of the Cognitive Science Society.
+            <br>[<a href="https://youtu.be/7No00WFiKyQ"><u>Link to presentation</u> (15 min.)</a>]
+          </span>
+        </div>
+      </div>
+    </div>
+
+
+    <!--
+      NUMBER
+    -->
+    <div class="topic-bucket">
+      <h1 class="topic-header">Numerical Reasoning</h1>
+      <div class="topic-overview">
+        <p>
+          Adults have an amazing ability to reason about abstract number in all kinds of ways.
+          But this doesn't come for free; kids struggle to learn basic concepts of number long after
+          they've learned how to count.
+        </p>
+        <p>
+          <em>What's the basis for adult number reasoning and how do kids learn it?</em>
+        </p>
+        <p>
+          Work I've done looking at numerical reasoning has used computational modeling techniques
+          to try and formalize, a) the strategies children use when reasoning about number and,
+          b) the process by which adults estimate number in the world around them.
+        </p>
+      </div>
+
+      <div class="topic-content">
+        <h2>Papers</h2>
+        <div class="paper-links">
+          <img src="/static/img/paper_img_drift.png" class="paper-img" alt="photo" style="width: 150px;">
+          <span class="paper-cite">
+            <b>Brockbank, E.</b>, Barner, D., & Vul, E. (2022).
+            <br>Ongoing dynamic calibration produces unstable number estimates.
+            <br><em>Journal of Experimental Psychology: General</em>.
+            <br>[<a href="/static/docs/papers/jep_g - drift.pdf"><u>Link to paper</u></a>]
+          </span>
+        </div>
+        <div class="paper-links">
+          <img src="/static/img/paper_img_counting.png" class="paper-img" alt="photo" style="width: 150px;">
+          <span class="paper-cite">
+            Schneider, R., <b>Brockbank, E.</b>, Feiman, R., & Barner, D. (2021).
+            <br>Counting and the ontogenetic origins of exact equality.
+            <br><em>Cognition</em>.
+            <br>[<a href="/static/docs/papers/cognition - counting and ontogenetic origins.pdf"><u>Link to paper</u></a>]
+          </span>
+        </div>
+        <div class="paper-links">
+          <img src="/static/img/paper_img_mapping.png" class="paper-img" alt="photo" style="width: 150px;">
+          <span class="paper-cite">
+            <b>Brockbank, E.</b>, & Vul, E. (2019).
+            <br>Mapping visual features onto numbers.
+            <br>In <em>Proceedings of the 41st Annual Conference of the Cognitive Science Society</em>.
+            <br>[<a href="/static/docs/papers/cogsci_19_estimation_FINAL.pdf"><u>Link to paper</u></a>]
+          </span>
+        </div>
+
+        <h2>Talks and Posters</h2>
+        <div class="paper-links">
+          <img src="/static/img/paper_img_mapping.png" class="paper-img" alt="photo" style="width: 150px;">
+          <span class="paper-cite">
+            <b>Brockbank, E.</b>, & Vul, E. (2019).
+            <br>Mapping visual features onto numbers.
+            <br>Poster presented at the 45th Annual Conference of the Society for Philosophy and Psychology
+            <br>& the 41st Annual Conference of the Cognitive Science Society.
+            <br>[<a href="/static/docs/posters/spp_19_FINAL_resize.pdf"><u>Link to poster</u></a>]
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!--
       MISCELLANEOUS
     -->
     <div class="topic-bucket">
@@ -280,7 +289,7 @@
         <div class="paper-links">
           <img src="/static/img/sampling_data_beliefs_actions-figure1.jpg" class="paper-img" alt="photo" style="width: 150px;">
           <span class="paper-cite">
-              <b>Brockbank, E.</b>, Holdaway, C., Acosta-Kane, D., & Vul, E. (in press).
+              <b>Brockbank, E.</b>, Holdaway, C., Acosta-Kane, D., & Vul, E. (2023).
               <br>Sampling Data, Beliefs, and Actions.
               <br>In Fiedler, K., Juslin, P., & Denrell, J. (Eds.),
               <em>Sampling in Judgment and Decision Making</em>. Cambridge University Press.
