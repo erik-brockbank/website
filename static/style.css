@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.cdnfonts.com/css/linux-libertine');
 
 html{
     font-family: 'Poppins', sans-serif;
+	/* font-family: 'Linux Libertine', sans-serif; */
  	letter-spacing: 0.05em;
 }
 
@@ -88,7 +90,10 @@ p{
 .paper-links{
 	font-size: 14px;
 	display: inline-flex;
-	padding: 10px;
+	padding-left: 5px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .paper-cite{
