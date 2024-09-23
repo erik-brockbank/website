@@ -111,3 +111,15 @@ p{
 .teaching-overview{
 	font-size: 14px;
 }
+
+
+.writing-item{
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.writing-link{
+	font-size: 20px;
+}
+

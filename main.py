@@ -17,6 +17,10 @@ def research():
 def teaching():
     return render_template("teaching.html", page="teaching")
 
+@app.route("/writing")
+def writing():
+    return render_template("writing.html", page="writing")
+
 # @app.route("/nudes")
 # def nudes():
 #     return render_template("contact.html", page="contact")
